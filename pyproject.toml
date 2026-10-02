@@ -7,11 +7,15 @@ authors = [
     { name = "n-remondelli-ece", email = "nina.remondelli@edu.ece.fr" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faker>=40.40.0",
+]
 
 [project.scripts]
-python-uv-lab = "python_uv_lab:main"
+dataset-users = "python_uv_lab.dataset_users:main"
+dataset-orders = "python_uv_lab.dataset_orders:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
 build-backend = "uv_build"
+
