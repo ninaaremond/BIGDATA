@@ -12,3 +12,4 @@ lab_medallion/dbt_packages/
 lab_medallion/logs/
 lab_medallion/*.duckdb
 lab_medallion/profiles.yml
+logs/
